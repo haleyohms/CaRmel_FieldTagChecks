@@ -1,7 +1,3 @@
-
-## Run all of this code (easiest to highlight all and run in one go)
-
-
 #####################################################################################################################
 ### INPUTS ##########################################################################################################
 #####################################################################################################################
@@ -11,16 +7,13 @@
 ##... dataDir is where the new fish data is located. NOTE: this should be in a different 
 ##... location from the functionsPath and dbDir
 
-functionsPath = "C:/Users/HaleyOhms/Documents/GitHub/CaRmel/Field Tag Check/FieldDuplicateTagCheck.r"
-#dbDir = "C:/Users/HaleyOhms/Documents/Carmel/DATA/Database/AllFishData.csv"
-dbDir = "C:/Users/HaleyOhms/Documents/GitHub/CaRmel/Field Tag Check/AllFishData.Rdata"
-dataDir = "C:/Users/HaleyOhms/Documents/GitHub/CaRmel/Field Tag Check"
+functionsPath = "C:/Users/HaleyOhms/Documents/GitHub/CaRmel_FieldTagCheck/FieldDuplicateTagCheck.r"
+dbDir = "C:/Users/HaleyOhms/Documents/GitHub/CaRmel_FieldTagCheck/AllFishData.Rdata"
+dataDir = "C:/Users/HaleyOhms/Documents/GitHub/CaRmel_FieldTagCheck"
 
 #####################################################################################################################
 
 ##... Run the code: 
 
 source(functionsPath)  
-
-
 

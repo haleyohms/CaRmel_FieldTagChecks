@@ -18,17 +18,17 @@ There are four files included in the GitHub download:
 + **Example_Scarlett_2019**: an example data file to check that the program is working
 
 
-#### Prepare the field laptop
+### Prepare the field laptop
 
 
 + Create a folder called `DuplicateTagChecker`
-- Within this folder place the ***field_tag_duplicate_compile_run.r*** file and the ***AllFishData.Rdat*** file
-Create a separate folder called `PopSurveyData2020`
-Within this folder place the ***example_pop_data.xlsx***
+    + Within this folder place the ***field_tag_duplicate_compile_run.r*** file and the ***AllFishData.Rdat*** file
++ Create a separate folder called `PopSurveyData2020`
+    + Within this folder place the ***example_pop_data.xlsx***
 + Install R, RStudio, as well as the dplyr and tidyverse packages
-- Open the ‘field_tag_duplicate_compile_run.r’ file and update the dbDir and dataDir to their locations on the laptop.
-The dbDir is where the “DuplicateTagChecker” file is located.
-The dataDir is where the “PopSurveyData2020” folder is located
++ Open the ‘field_tag_duplicate_compile_run.r’ file and update the dbDir and dataDir to their locations on the laptop.
+    + The dbDir is where the “DuplicateTagChecker” file is located.
+    + The dataDir is where the “PopSurveyData2020” folder is located
 
 
 

@@ -52,7 +52,8 @@ print("Main fish data looks like this:")
 print(head(AFD[,1:8]))
 
 #... Check for and return duplicates
-Tdat <- filter(AFD, Recap==F, !is.na(PITnum)) #Non-recaps
+Tdat <- filter(AFD, !is.na(PITnum)) #Ignore NAs, recaps already excluded from AFD
+#Tdat <- filter(AFD, Recap==F, !is.na(PITnum)) #Non-recaps
 dupTags <- Tdat[which(duplicated(Tdat$PITnum)==T) , ]
 idx <- duplicated(Tdat$PITnum) | duplicated(Tdat$PITnum, fromLast = TRUE) 
 

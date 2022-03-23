@@ -59,4 +59,4 @@ idx <- duplicated(Tdat$PITnum) | duplicated(Tdat$PITnum, fromLast = TRUE)
 
 ##... print the duplicates
 print("Here are the duplicates:")
-print(Tdat[idx, c(1, 2, 4, 7)])
+print(Tdat[idx, c(1, 2, 4, 7, 10)])
